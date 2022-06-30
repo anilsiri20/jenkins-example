@@ -29,7 +29,7 @@ pipeline {
 	}
 	post {
 		success {
-			echo 'job was built successfully'
+			echo 'job was building successfully'
 		}
 		failure {
 			echo 'job was not build..it was failed'
